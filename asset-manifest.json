@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rolls/static/css/main.a0840baa.css",
+    "main.js": "/rolls/static/js/main.0a412468.js",
+    "index.html": "/rolls/index.html",
+    "main.a0840baa.css.map": "/rolls/static/css/main.a0840baa.css.map",
+    "main.0a412468.js.map": "/rolls/static/js/main.0a412468.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0840baa.css",
+    "static/js/main.0a412468.js"
+  ]
+}
