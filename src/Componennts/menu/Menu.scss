@@ -1,0 +1,68 @@
+.menu{
+    width:100%;
+    height: 25vh;
+    background:transparent;
+    // background-color: rgb(181, 163, 163);
+    opacity: 0.6;
+    position:fixed;  
+    // position:absolute;
+    top:0;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu1{
+    width:90%;
+    height:60%;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    div{
+        // width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            cursor: pointer;
+        }
+        img{
+            width:20%
+        }
+        i{
+            margin:10px;
+        }
+    }
+
+}
+.menu2{
+    width:100%;
+    height:40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgb(219, 216, 216);
+}
+
+.gic{
+    width:90%;
+    height:1px;
+    background: white;
+}
+.betw{
+    width:90%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.betw1{
+    display: flex;
+    div{
+        margin:10px;
+        color:white;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

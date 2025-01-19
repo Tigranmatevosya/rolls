@@ -1,0 +1,47 @@
+.futter{
+    width:100%;
+    height:40vh;
+    background:black;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -2;
+    justify-content: space-around;
+    .futrols{
+        width:100%;
+        margin:50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+.futflex{
+    display: flex;
+    width: 100%;
+}
+.futflex1{
+    width:80%;
+    height:20vh;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+  
+    div{
+        width:20%;
+        height:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.futflex2{
+    width:20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    div{
+        width:10%;
+        margin:2px;
+        color:gray;
+    }
+}

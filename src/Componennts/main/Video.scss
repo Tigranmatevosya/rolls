@@ -1,0 +1,86 @@
+.video2{
+  background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/6-11-complaints-procedure/page-properties/rrmc-complaints-procedures-hero-d.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  width:100%;
+  height:90vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  div{
+    width:51%;
+    text-align: center;
+    color:white;
+    font-size: 70px;
+    margin: 30px;
+    font-weight: 300;
+  }
+  p{
+    width:50%;
+    text-align: center;
+    color:white;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
+.video1{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.videovision{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(226, 225, 225);
+  
+   .vis{
+    margin-top:100px;
+   }
+   .button{
+    button{
+      background:rgb(197, 195, 195);
+    }
+   }
+}
+.videovalues{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .vis{
+    margin-top:100px;
+   }
+}
+.videoexp{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(226, 225, 225);
+  .vis{
+    margin-top:100px;
+   }
+}
+
+.videovisionares{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.videoobj{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(226, 225, 225);
+  .vis{
+    margin-top:100px;
+   }
+}

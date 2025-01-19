@@ -1,0 +1,287 @@
+.models{
+    width:100%;
+    height:100vh;
+    position: absolute;
+    top:0;
+    display: flex;
+    opacity: 1;
+    z-index: 10;
+    opacity: 1;
+    background: gray;  
+    animation:models 1.5s;
+    .PHANTOM2{
+        width:40%;
+       background: black;
+       background-image: url("https://i.pinimg.com/736x/71/2f/3c/712f3ceaebb2ef5854aced3545a99e63.jpg");
+       background-size: cover;
+       background-position: center;
+       background-repeat: repeat;
+        opacity: 1;
+       animation: mod 6s infinite;
+       @keyframes mod {
+       
+        10%{
+            opacity: 0.6;
+        }
+        70%{
+            opacity: 1;
+        }
+    }
+    }
+    .PHANTOMEXTANDED2{
+        width:40%;
+       background: black;
+       background-image: url("https://wallpapersmug.com/download/1920x1080/695b70/front-of-rolls-royce-black-badge-ghost.jpg");
+       background-size: cover;
+       background-position: center;
+       background-repeat: repeat;
+        opacity: 1;
+       animation: mod 6s infinite;
+       @keyframes mod {
+        10%{
+            opacity: 0.6;
+        }
+        70%{
+            opacity: 1;
+        }
+    }
+    }
+
+    .SPECTRE2{
+        width:40%;
+       background: black;
+       background-image: url("https://4kwallpapers.com/images/wallpapers/rolls-royce-spectre-2880x1800-10566.jpg");
+       background-size: cover;
+       background-position: center;
+       background-repeat: repeat;
+        opacity: 1;
+       animation: mod 6s infinite;
+       @keyframes mod {
+        10%{
+            opacity: 0.6;
+        }
+        70%{
+            opacity: 1;
+        }
+    }
+    }
+
+    .GHOST2{
+        width:40%;
+       background: black;
+       background-image: url("https://i.pinimg.com/originals/5d/22/a1/5d22a171d2aecf3283ce16e8580bcbba.jpg");
+       background-size: cover;
+       background-position: center;
+       background-repeat: repeat;
+        opacity: 1;
+       animation: mod 6s infinite;
+       @keyframes mod {
+        10%{
+            opacity: 0.6;
+        }
+        70%{
+            opacity: 1;
+        }
+    }
+    }
+
+    .GHOSTEXTANDED2{
+        width:40%;
+       background: black;
+       background-image: url("https://a-static.besthdwallpaper.com/rolls-royce-ghost-2020-01-wallpaper-1024x576-59263_44.jpg");
+       background-size: cover;
+       background-position: center;
+       background-repeat: repeat;
+        opacity: 1;
+       animation: mod 6s infinite;
+       @keyframes mod {
+        10%{
+            opacity: 0.6;
+        }
+        70%{
+            opacity: 1;
+        }
+    }
+    }
+
+    .CULLINAN2{
+        width:40%;
+       background: black;
+       background-image: url("https://s1.cdn.autoevolution.com/images/news/gallery/mansory-cullinan-rs-black-badge-is-a-663-hp-satin-metallic-brown-stunner-that-got-away_5.jpg");
+       background-size: cover;
+       background-position: center;
+       background-repeat: repeat;
+        opacity: 1;
+       animation: mod 6s infinite;
+       @keyframes mod {
+        10%{
+            opacity: 0.6;
+        }
+        70%{
+            opacity: 1;
+        }
+    }
+    }
+
+    .BADGE2{
+        width:40%;
+       background: black;
+       background-image: url("https://www.mad4wheels.com/img/free-car-images/mobile/19217/rolls-royce-ghost-black-badge-2022-649453.jpg");
+       background-size: cover;
+       background-position: center;
+       background-repeat: repeat;
+        opacity: 1;
+       animation: mod 6s infinite;
+       @keyframes mod {
+        10%{
+            opacity: 0.6;
+        }
+        70%{
+            opacity: 1;
+        }
+    }
+    }
+
+    @keyframes models {
+        
+        1%{
+        opacity: 0;
+        }
+     100%{
+      opacity: 1;
+     }
+    }
+    
+    .PHANTOM{
+        width:60%;
+        background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/RRMC_Model_Phantom_II_D.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+        background-size:cover;
+        background-position: center;
+        background-repeat: repeat;     
+        animation: phan 2.5s;
+        opacity: 1;
+        @keyframes phan {
+            1%{
+                opacity: 0.4;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+    }
+   
+    .PHANTOMEXTANDED{
+        width:60%;
+        background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/RRMC_Model_Phantom_Ext_II_D.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+        background-size:cover;
+        background-position: center;
+        background-repeat: repeat;
+        animation: phan 2.5s;
+        opacity: 1;
+        @keyframes phan {
+            1%{
+                opacity: 0.4;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+
+    }
+
+    .SPECTRE{
+        width:60%;
+        background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/RRMC_SPECTRE_NAV_D.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+        background-size:cover;
+        background-position: center;
+        background-repeat: repeat;
+        animation: phan1 2.5s;
+        opacity: 1;
+        @keyframes phan1 {
+            1%{
+                opacity: 0.4;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+    }
+    
+    .GHOST{
+        width:60%;
+        background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/D-MENU-2023-GHOST.png/jcr:content/renditions/cq5dam.web.2880.webp");
+        background-size:cover;
+        background-position: center;
+        background-repeat: repeat;
+        animation: phan2 2.5s;
+        opacity: 1;
+        @keyframes phan2 {
+            1%{
+                opacity: 0.4;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+    }
+    .GHOSTEXTANDED{
+        width:60%;
+        background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/ghost-new/Ghost-EWB-panel.jpg/jcr:content/renditions/original");
+        background-size:cover;
+        background-position: center;
+        background-repeat: repeat;
+        animation: phan3 2.5s;
+        opacity: 1;
+        @keyframes phan3 {
+            1%{
+                opacity: 0.4;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+    }
+    .CULLINAN{
+        width:60%;
+        background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/D-SIDE-NAV-CSII.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+        background-size:cover;
+        background-position: center;
+        background-repeat: repeat;
+        animation: phan3 2.5s;
+        opacity: 1;
+        @keyframes phan3 {
+            1%{
+                opacity: 0.4;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+    }
+    .BADGE{
+        width:60%;
+        background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/D-SIDE-NAV-BB-CSII.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+        background-size:cover;
+        background-position: center;
+        background-repeat: repeat;
+        animation: phan4 2.5s;
+        opacity: 1;
+        @keyframes phan4 {
+            1%{
+                opacity: 0.4;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+    }
+    // .CULLINAN{
+    //     width:60%;
+    //     background-image: url("");
+    //     background-size:cover;
+    //     background-position: center;
+    //     background-repeat: repeat;
+    // }
+
+  
+}

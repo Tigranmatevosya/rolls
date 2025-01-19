@@ -1,0 +1,247 @@
+.configue{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conimg{
+  background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-1-configure/page-properties/D-Configurator-Hero.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+  background-size:cover;
+  background-repeat: repeat;
+  background-position:center;
+  width:100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 200;
+    color: white;
+    opacity: 0.7;
+  }
+}
+.context1{
+    width:100%;
+    height:40vh;
+    background-color: rgb(40, 1, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        text-align: center;
+        color:white;
+        width:100%;
+        line-height: 1.5;
+        font-weight: 200;
+        opacity: 0.7;
+    }
+}
+.conmenu{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background:rgb(233, 232, 232);
+}
+.contmenudiv{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    div{
+        width:12%;
+        height:10vh;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &:hover{
+            cursor: pointer;
+        }
+        div{
+            width: 80%;
+            height: 2px;
+            background:black;
+        }
+    }
+}
+
+.conmenu2{
+   width:100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   button{
+    width:300px;
+    margin-top:650px;
+    color:white;
+    background:transparent;
+    border: solid whitesmoke;
+    transition: .5s;
+    &:hover{
+        color:gray;
+        background:transparent;
+        border: solid gray;
+    }
+}
+}
+
+.phantom{
+    width:100%;
+    height:100vh;
+    background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/RRMC_Model_Phantom_II_D.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+.phnatomex{
+    width:100%;
+    height:100vh;
+    background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/RRMC_Model_Phantom_Ext_II_D.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+.spectre{
+    width:100%;
+    height:100vh;
+    background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/RRMC_SPECTRE_NAV_D.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+.ghost{
+    width:100%;
+    height:100vh;
+    background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/D-MENU-2023-GHOST.png/jcr:content/renditions/cq5dam.web.2880.webp");
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+    button{
+        color:white;
+        background:transparent;
+        border: solid whitesmoke;
+        transition: .5s;
+        &:hover{
+            color:gray;
+            background:transparent;
+            border: solid gray;
+        }
+    }
+}
+
+.ghostex{
+    width:100%;
+    height:100vh;
+    background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/common/navigation/desktop/ghost-new/Ghost-EWB-panel.jpg/jcr:content/renditions/original");
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+.culinan{
+    width:100%;
+    height:100vh;
+    background-image: url("https://www.rollsroyceofgreenwich.com/imagetag/4381/11/l/Used-2021-Rolls-Royce-Cullinan.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+.bbg{
+    width:100%;
+    height:100vh;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/mzR5isYhyqNmLCw3R9Zn4o.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+    button{
+        color:white;
+        background:transparent;
+        border: solid whitesmoke;
+        transition: .5s;
+        &:hover{
+            color:gray;
+            background:transparent;
+            border: solid gray;
+        }
+    }
+}
+.bbc{
+    width:100%;
+    height:100vh;
+    background-image: url("https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/black_1_0.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
+    button{
+        color:white;
+        background:transparent;
+        border: solid whitesmoke;
+        transition: .5s;
+        &:hover{
+            color:gray;
+            background:transparent;
+            border: solid gray;
+        }
+    }
+}
+
+
+.context2{
+    width:100%;
+    height:80vh;
+    background-color: rgb(40, 1, 40);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    
+    div{
+        width:100%;
+        height:40%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        opacity: 0.7;
+        img{
+            width:10%;
+        }
+        h1{
+            width:100%;
+            font-weight: 200;
+            margin:30px;    
+            text-align: center;
+        }
+        p{
+            width:100%;
+            font-weight: 200;
+            text-align: center;
+        }
+    }
+    a{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        button{
+            margin:0;
+            width:300px;
+            border-radius: 45px;
+            margin-bottom:100px;
+        }
+    }
+}

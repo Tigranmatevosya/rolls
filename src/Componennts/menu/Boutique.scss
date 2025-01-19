@@ -1,0 +1,178 @@
+.bot{
+    .vis2{
+      width: 100%;
+      height:50vh;
+      background: rgb(251, 249, 249);
+      display: flex;
+      text-align: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      h2{
+      font-weight: 300;
+      }
+    }
+}
+
+.visbot{
+    background-image:url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/boutique/all_accessories/page-properties/april_2023/Accessories_Hero-D.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.visbot2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   .vis{
+    margin-top:100px;
+   }
+}
+.botimg1{
+    margin-top:150px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img{
+        width:100%;
+    }
+}
+.botimg2{
+    background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/boutique/homepage-update/components/Boutique_HP_Kinetic_Parallax-D.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    width:100%;
+    height:100vh;
+    margin:150px 0 150px 0;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.botimg2div{
+    color: white;
+    width:35%;
+    height:35%;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 300;
+    p{
+        color:gray;
+        width:100%;
+        // margin:30px 0 30px 0;
+    }
+    h4:hover{
+        cursor: pointer;
+
+    }
+   
+}
+.botsublime{
+    background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/boutique/boutique_landing/components/rrmc-accessories-boutique-pursuit-seat-fw-bg.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .botimg3div{
+        color:black;
+        width:80%;
+        height:30%;
+        display: flex;
+        flex-wrap: wrap;
+        p{
+            color:gray;
+            width:100%;
+            font-size: 14px;
+        font-weight: 300;
+        }
+        h1{
+        font-weight: 300;
+        }
+        h4:hover{
+            cursor: pointer
+        }
+    }
+}
+.botblack{
+    width:100%;
+    height: 80vh;
+    color:whitesmoke;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .botblackdiv{
+    width:100%;
+    height:50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .visdiv2{
+        &:hover{
+            cursor:pointer;
+        }
+    }
+    }
+}
+.botimage4{
+    background-image: url("https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/boutique/homepage-update/components/Boutique_HP_10_Col-D.jpg/jcr:content/renditions/cq5dam.web.2880.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    width: 100%;
+    height:100vh;
+}
+
+.botfut{
+    width: 100%;
+    height:150vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(47, 47, 47);
+    background-attachment: fixed;
+    color: white;
+    h3{
+      margin-top:150px;
+      width:100%;
+      font-weight: 300;
+      text-align: center;
+    }
+    .botp{
+      width:100%;
+      text-align: center;
+      margin-top:10px;
+      font-weight: 300;
+    }
+    button{
+        color:white;
+        background-color: rgb(47, 47, 47);
+        i{
+            margin:12px;
+            &:hover{
+                color: black;
+                background-color: rgb(47, 47, 47);
+            }
+        }
+        &:hover{
+        color: black;
+        background-color: rgb(47, 47, 47);
+        transition: .5s;
+        }
+    }
+}
